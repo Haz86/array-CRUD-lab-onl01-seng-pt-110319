@@ -10,20 +10,27 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  Array3 =["1", "2", "3"]
+  Array3.push "4"
   
   
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  Array3 =["1", "2", "3"]
+  Array3.unshift "4"
 end
 
 def remove_element_from_end_of_array(array)
+  Array3 =["1", "2", "3"]
+  Array3.pop
+  
   
 end
 
 def remove_element_from_start_of_array(array)
-  
+  Array3 =["1", "2", "3"]
+  Array3.shift
 end
 
 def retrieve_element_from_index(array, index_number)
